@@ -1,6 +1,6 @@
 import math, random, neopixel,time
 import machine, _thread
-from machine import Pin, ADC, DAC
+from machine import *
 
 class Led_Strip:
     def __init__(self,Pin_NP,NUM_PIXELS):
